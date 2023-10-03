@@ -1,0 +1,443 @@
+<resources>
+    <string name="app_name">GrowingTree</string>
+
+    <string name="title_activity_login">Login</string>
+    <string name="phone_hint_activity_login">Please enter the mobile phone number</string>
+    <string name="password_hint_activity_login">Please enter the password</string>
+    <string name="forgot_pass_activity_login">Forget Password</string>
+    <string name="forgot_pass_under_line_activity_login"><u>Forget Password</u></string>
+    <string name="register_user_activity_login"><u>New User Registration</u></string>
+
+    <string name="title_activity_register">Registration</string>
+    <string name="phone_hint_activity_register">Please enter the mobile phone number</string>
+    <string name="check_code_activity_register">Verification code</string>
+    <string name="get_check_code_activity_register">Get verification code</string>
+
+    <string name="phone_num">Mobile phone number</string>
+
+    <string name="title_activity_retrieve_password">Retrieve Password</string>
+    <string name="title_activity_modify_username">Change Phone</string>
+
+    <string name="old_phone_hint_activity_modify_username">Please enter the old mobile phone number</string>
+    <string name="new_phone_hint_activity_modify_username">Please enter the new mobile phone number</string>
+    <string name="password_hint_activity_modify_username">Please enter the password</string>
+
+    <string name="title_activity_add_baby">Add Baby</string>
+
+    <string name="next_step">Next step</string>
+
+    <string name="nav_title_baby">Baby</string>
+    <string name="nav_title_curve">Curve</string>
+    <string name="nav_title_milestone">Milestone</string>
+    <string name="nav_title_mine">Mine</string>
+
+    <string name="title_curve">Curve</string>
+    <string name="curve_limit_line_table">Current</string>
+
+    <string name="height">Height</string>
+    <string name="weight">Weight</string>
+    <string name="head_circumference">HC</string>
+    <string name="bmi">BMI</string>
+
+    <string-array name="suggestion_height">
+        <item>* Height is obviously too short: There may be illness or feeding problems. If you confirm the accuracy of the measurement and filling in the value, please consult a doctor in time to find out the reason and intervene as soon as possible.</item>
+        <item>* Height is short：If the baby\'s growth curve is stable, then don\'t worry too much, pay attention to ensure the baby\'s sleep and nutrition intake in life, and continue to pay attention to the baby\'s growth curve changes. If the baby\'s growth curve is suddenly downward, then you need to check for disease or feeding problems, it is recommended to consult a professional doctor in time.</item>
+        <item>* Height is normal：Baby is healthy!</item>
+        <item>* Height is high：If the baby\'s growth curve is stable, then don\'t worry too much, pay attention to the control of the baby\'s nutrition intake, exercise, and continue to pay attention to the baby\'s growth curve changes. If the baby\'s growth curve is suddenly upward, then it is necessary to check for disease or feeding problems, it is recommended to consult a professional doctor in time.</item>
+        <item>* Height is significantly high：There may be illness or feeding problems. If you confirm the accuracy of the measurement and filling in the value, please consult a doctor in time to find out the reason and intervene as soon as possible.</item>
+    </string-array>
+
+    <string-array name="suggestion_weight">
+        <item>* Weight is obviously too light：There may be illness or feeding problems. If you confirm the accuracy of the measurement and filling in the value, please consult a doctor in time to find out the reason and intervene as soon as possible.</item>
+        <item>* Weight is light：If the baby\'s growth curve is stable, then don\'t worry too much, pay attention to ensure the baby\'s sleep and nutrition intake in life, and continue to pay attention to the baby\'s growth curve changes. If the baby\'s growth curve is suddenly downward, then you need to check for disease or feeding problems, it is recommended to consult a professional doctor in time.</item>
+        <item>* Weight is normal：Baby is healthy!</item>
+        <item>* Weight is heavy：If the baby\'s growth curve is stable, then don\'t worry too much, pay attention to the control of the baby\'s nutrition intake, exercise, and continue to pay attention to the baby\'s growth curve changes. If the baby\'s growth curve is suddenly upward, then it is necessary to check for disease or feeding problems, it is recommended to consult a professional doctor in time.</item>
+        <item>* Overweight：There may be illness or feeding problems. If you confirm the accuracy of the measurement and filling in the value, please consult a doctor in time to find out the reason and intervene as soon as possible.</item>
+    </string-array>
+
+    <string-array name="suggestion_Head_circle">
+        <item>* Head circumference is too small：If you confirm the accuracy of the measurement and filling in the value, please consult a doctor in time to find out the reason and intervene as soon as possible.</item>
+        <item>* Head circumference is small：Regular measurement is recommended to continue to observe whether the curve is stable. If the trend is stable, don\'t worry too much, every baby has its own growth pattern. If the curve drops suddenly, you should consult a professional doctor in time.</item>
+        <item>* Head circumference is normal: Baby is healthy!</item>
+        <item>* Head circumference is big：Regular measurement is recommended to continue to observe whether the curve is stable. If the trend is stable, don\'t worry too much, every baby has its own growth pattern. If there is a sudden increase in the curve, you should consult a professional doctor in time.</item>
+        <item>* Head circumference is too big：If you confirm the accuracy of the measurement and filling in the value, please consult a doctor in time to find out the reason and intervene as soon as possible.</item>
+    </string-array>
+
+    <string-array name="suggestion_bmi">
+        <item>* BMI is normal：Baby is healthy!</item>
+        <item>* BMI is normal：Baby is healthy!</item>
+        <item>* BMI is normal: Baby is healthy!</item>
+        <item>* BMI shows overweight：Baby is likely to be at risk of being overweight. You should pay attention to control the baby\'s diet in life, let the baby more exercise, at the same time continue to pay attention to the baby growth curve change and consult your doctor in time.</item>
+        <item>* BMI shows overweight：Baby is likely to be at risk of being overweight. You should pay attention to control the baby\'s diet in life, let the baby more exercise, at the same time continue to pay attention to the baby growth curve change and consult your doctor in time.</item>
+    </string-array>
+
+
+    <string-array name="first_events">
+        <item>Smile for the first time</item>
+        <item>Eat biscuits for the first time</item>
+        <item>Sit without support for the first time</item>
+        <item>Stand with assistance for the first time</item>
+        <item>Crawl for the first time</item>
+        <item>Walk with assistance for the first time</item>
+        <item>Call Mom for the first time</item>
+        <item>Call dad for the first time</item>
+        <item>Stand alone for the first time</item>
+        <item>Walk alone for the first time</item>
+    </string-array>
+
+    <string-array name="first_smile">
+        <item>* 【Normal】With the growth of the baby\'s age, gradually parents and the baby will have regular interaction, such as the smile game. If the baby is happy, then he or she will dance, shake limbs, or even utter a babbling or joyful scream. So parents might as well take advantage of the baby happy time to make some more interaction with the baby, which is also conducive to the development of the baby\'s big movements.</item>
+        <item>* 【Delayed】Your baby\'s first smile should occur between 1 and 3 months of age, and there is no need to worry if it is delayed. However, you should consult a doctor if multiple age-appropriate milestones are not reached or delayed for a long time.</item>
+    </string-array>
+
+    <string-array name="first_eat_biscuits">
+        <item>* 【Normal】Parents should try to choose biscuits specially designed for the baby to avoid excessive oil, sugar and food additives. Baby must not lie down when eating biscuits, must maintain a sitting position to avoid choking, and parents must be in the side monitoring. However, it is important to note that biscuits as snacks should not be given to the baby to eat too much, so as not to develop bad eating habits.</item>
+        <item>* 【Delayed】Your baby\'s first eat biscuits should occur between 7 and 9 months of age, and there is no need to worry if it is delayed. However, you should consult a doctor if multiple age-appropriate milestones are not reached or delayed for a long time.</item>
+    </string-array>
+    <string-array name="first_sit_self">
+        <item>* 【Normal】Tips of encouraging your baby to practice sitting skills: put your baby down in a sitting position and support his waist as he tries to balance; let your baby back against the pillow or sit in a corner of a sofa to help him keep balance; put a playful object above your baby\'s head to attract attention and guide him to look up so he can stand up straight.</item>
+        <item>* 【Delayed】Your baby\'s first sit without support should occur between 3 and 9 months of age, and there is no need to worry if it is delayed. However, you should consult a doctor if multiple age-appropriate milestones are not reached or delayed for a long time.</item>
+    </string-array>
+    <string-array name="first_crawl">
+        <item>* 【Normal】In the real crawling, baby is crawling with hands and knees, head and neck up, chest and abdomen leave the surface of the bed. Crawling to the baby is a very beneficial movement, not only can exercise the strength of the baby\'s whole body muscles and coordination ability, but also can enhance the cerebellum balance sense, to the baby in the future learning language and reading have a good impact. Therefore, mom and dad must help the baby to complete the crawling movement.</item>
+        <item>* 【Delayed】Your baby\'s first crawl should occur between 5 and 13 months of age, and there is no need to worry if it is delayed. However, you should consult a doctor if multiple age-appropriate milestones are not reached or delayed for a long time.</item>
+    </string-array>
+    <string-array name="first_stand_up">
+        <item>* 【Normal】Parents can use the following method to help the baby practice standing: teach the baby to raise the body on both hands from the prone position, then kneel up on both legs, climb up, grasp the railing to stand up; use both hands to support the baby under his armpits and let him practice standing. When the baby\'s stand with two hands assistance more stable, parents can train one-hand assistance station, the other hand to get the toy.</item>
+        <item>* 【Delayed】Your baby\'s first stand with assistance should occur between 4 and 11 months of age, and there is no need to worry if it is delayed. However, you should consult a doctor if multiple age-appropriate milestones are not reached or delayed for a long time.</item>
+    </string-array>
+    <string-array name="first_walk">
+        <item>* 【Normal】Learning to walk is a big deal for a baby, and mom and dad should neither rush nor worry about the baby will not learn, because as long as the baby\'s physical function is normal, then to a certain month learning to walk is not a very difficult thing. Additionally, in the process of the baby learning to walk, crawling pad, soft shoes are necessary, and parents must choose suitable products for the baby, otherwise he will get hurt easily.</item>
+        <item>* 【Delayed】Your baby\'s first walk with assistance should occur between 6 and 13 months of age, and there is no need to worry if it is delayed. However, you should consult a doctor if multiple age-appropriate milestones are not reached or delayed for a long time.</item>
+    </string-array>
+    <string-array name="first_call_parents">
+        <item>* 【Normal】Your baby\'s ability to speak language needs stimulation. After the baby is born, parents should insist on talking to the baby every day. Beautiful, rhythmic words can stimulate the language central nervous system, and promote development. When your baby needs something, it is a good time to practice your baby\'s speech. That is to say, this is the time to force the baby to talk about his or her needs.</item>
+        <item>* 【Delayed】Your baby\'s first call mom/dad should occur between 10 and 15 months of age, and there is no need to worry if it is delayed. However, you should consult a doctor if multiple age-appropriate milestones are not reached or delayed for a long time.</item>
+    </string-array>
+    <string-array name="first_stand_self">
+        <item>* 【Normal】The premise of the baby standing alone is to be able to land easily on both heels while standing, rather than standing on the ball of the foot. At the same time, the baby can also balance the body sway. It is normal to do this before one and a half years old.</item>
+        <item>* 【Delayed】The first time that the baby stands alone should happen between 7 and 16 months of age, if the time is delayed, parents should take the baby often to go out to bask in the sun, supplement calcium, eat a diet containing calcium food and a variety of nutrients to make the body gradually strong. There is no need to worry if it is delayed, however, parents should consult a doctor if multiple age-appropriate milestones are not reached or delayed for a long time.</item>
+    </string-array>
+    <string-array name="first_walk_self">
+        <item>* 【Normal】There is a big difference in the time of each baby to start walking alone. Some babies can start walking at 8 months, while some babies can start walking at around 12 to 13 months of age or even later. This is mostly related to many factors, such as the development of the baby itself, genetic factors, opportunities for sports training, diseases and the influence of seasons, etc., and some babies have a psychological fear of walking after a fall when they are just toddlers, which affects the process of toddlers.</item>
+        <item>* 【Delayed】Your baby\'s first walk alone should occur between 8 and 17 months of age, and there is no need to worry if it is delayed. However, you should consult a doctor if multiple age-appropriate milestones are not reached or delayed for a long time.</item>
+    </string-array>
+
+    <string-array name="milestones_standard_times">
+        <item>1~3 month</item>
+        <item>7~9 month</item>
+        <item>3~9 month</item>
+        <item>4~11 month</item>
+        <item>5~13 month</item>
+        <item>6~13 month</item>
+        <item>10~15 month</item>
+        <item>10~15 month</item>
+        <item>7~16 month</item>
+        <item>8~17 month</item>
+    </string-array>
+
+
+    <string-array name="recommend_1_month">
+        <item>"The basic abilities of a 1-month-old baby include:
+    Mastered abilities (most babies can do): hold his head up while on his tummy; respond to sound; look at people's faces.
+    Developing abilities (half babies can do): follow objects briefly with his eyes; make a \"purr\" or "ahhh" sound; see black and white patterns.
+    Advanced abilities (few babies can do): smile, laugh aloud; hold his head up 45 degrees."
+        </item>
+        <item>
+            "Breast milk contains a large amount of immunoglobulin, with bacteriostatic, bacteriostatic, bactericidal action, is the baby's first-class natural vaccine. However, not all new-borns can be exclusively breastfed, the lack of breast milk, lactose intolerance, or suffering from bleeding disorders and other causes are factors affecting breastfeeding. Accordingly, need to feed proper milk powder. At present, artificial feeding is commonly consumed baby milk powder, its main raw material is milk. For lactose intolerant neonates, it is necessary to choose the infant milk powder specially developed for lactose intolerant neonates."
+        </item>
+        <item>
+            "1. Umbilical cord nursing
+Keep the umbilical cord clean and dry before shedding, especially the diaper should not cover the umbilical cord, so as not to wet the wound of the umbilical cord after urination.
+2. Get about 20 hours of sleep a day
+Good sleep is conducive to the body's metabolism, promote the growth and development of the baby. Parents should also provide a good sleep environment for the baby, do not let the baby sleep too soft bed and big and soft pillow. The baby should sleep in a single bed to prevent suffocation.
+3. Pay attention to the bottle disinfection
+Whether it is a new bottle or a used bottle, always remember to disinfect after cleaning.
+4. Don't give your baby leftover milk
+The baby should drink all the milk within an hour, and the rest of the milk should not be given to the baby. Before feeding mixed feeding babies, parents must test the temperature of the bottle before feeding to prevent burns.
+5. When taking photos of your baby, do not use flash
+Parents love to take pictures of their babies, but make sure the flash is off. Flashlights can have adverse effects on the visual development of babies."
+        </item>
+    </string-array>
+
+    <string-array name="recommend_2_month">
+        <item>
+            "The basic abilities of a 2-month-old baby include:
+Mastered abilities (most babies can do): make \"gurgling\" and \"cooing\" sounds; eyes can follow objects within the range of vision; notice his own little hand; hold his head up for a while.
+Developing abilities (half babies can do): smile, laugh out loud; lift head 45 degrees; smoother motion.
+Advanced abilities (few babies can do): hold his head up steadily; use his legs to support weight."
+        </item>
+        <item>
+            "Starting this month, it\'s best to regularly feed your baby. Intervals should be 3-4 hours, increase the amount of each feeding, feeding 5-6 times a day, and in about the same time feeding. The baby that exclusive breastfeed, before 4 months, do not need to feed water additionally, and need good complement calcium. Mixed feeding babies need to feed water between breastfeeding, because the milk contains more minerals, the baby cannot fully absorb, excess minerals must be excreted through the kidney."
+        </item>
+        <item>
+            "1. Use talcum powder
+Talcum powder can damage health if used inappropriately for long periods of time, especially in infants and young children.
+2. Baby clothes
+Soft, absorbent, breathable clothes made of cotton are suitable for babies. Clothing style should be simple, loose, do not interfere with baby\'s limbs and physical activities. Pure cotton products are very important. Many babies cry at night because of wearing clothes made of chemical fiber, which cause skin allergy and discomfort.
+3. Cut nails
+The most fundamental and effective way to prevent new-borns from scratching their skin is to cut their nails regularly. A new-born\'s nails are softer than anyone\'s, so be careful when cutting them.
+4. Get about 17 to 20 hours of sleep a day
+Good sleep is conducive to the body\'s metabolism, promote the growth and development of the baby."
+        </item>
+    </string-array>
+
+    <string-array name="recommend_3_month">
+        <item>
+            "The basic abilities of a 3-month-old baby include:
+Mastered abilities (most babies can do): recognize face and smell; hold head up steadily; eyes can follow a moving object.
+Developing abilities (half babies can do): able to scream; spit bubbles; know parents\' voice.
+Advanced abilities (few babies can do): roll from prone to supine; turn his head to look for it when hearing a loud noise; put both hands together and pat the toy."
+        </item>
+        <item>
+            "Breast-fed babies do not need to add any other food if they have enough milk, while the mixed feeding babies should be fed once every 3-4 hours, 150ml each time, 6 times a day, and the total milk volume should not exceed 1000ml. For mixed feeding babies, vegetable juice and fresh fruit juice should be added in an appropriate amount to supplement the vitamin C lost during milk processing. Generally 2 times a day, in between feeding. If the mother is unable to breastfeed due to work or health reasons, the baby can be fed formula milk instead of rice soup, rice paste or milk cake, which is difficult for the baby to digest and absorb."
+        </item>
+        <item>
+            "1. Urinates
+Baby should be trained to urinate at 3 months after birth. Parents should carefully observe the performance of the baby micturition, interval time, estimate the baby when there is urine again, when the urine can send out a signal \"hiss, hiss\" sound, and take a certain posture, make time, voice, posture these signals linked, after repeated for many times, formation of micturition reflex will success.
+2. Crying at night
+Parents should help baby get into the habit of sleeping about two hours each morning, noon and afternoon. Some babies can sleep continuously for more than 5 hours at night, but some babies always cry at night. In addition to the common factors that affect a baby\'s sudden crying during sleep, such as a poor sleep environment, too much excitement before bedtime, and physical discomfort, the baby\'s internal factors also have an impact on sleep: the brain is not yet mature neurodevelopment (the baby has not established a fixed physical schedule).
+3. Accident protection
+Do not place your baby on the bedside, table or sofa when no one is watching. Otherwise the baby will suddenly roll over and fall. This is the most common thing at 3 months and parents should definitely avoid it."
+        </item>
+    </string-array>
+
+    <string-array name="recommend_4_month">
+        <item>
+            "The basic abilities of a 4-month-old baby include:
+Mastered abilities (most babies can do): smile, laugh out loud; use legs to support weight; \"cooing\" back when speaks to him.
+Developing abilities (half babies can do): grab a toy; roll from prone to supine.
+Advanced abilities (few babies can do): First tooth."
+        </item>
+        <item>
+            "Add rice paste, fruit juice and vegetable soup appropriately. After baby get used to rice paste, fruit juice and vegetable soup, start to add protein food. Only 1\/4 of egg yolks can be added at the beginning. Rice paste: rice soup is less likely to cause baby allergies. The food of protein kind: egg yolk can make mush, also can add some chicken liver, increase iron quality. Juice: vegetable juice, orange juice, apple juice, tomato juice."
+        </item>
+        <item>
+            "1. Drooling
+Because new-born saliva is not developed, saliva secretion is very little, 3-4 months began to increase saliva secretion, 6 months later as a result of diet change, stimulate nerve causes saliva secretion increase, only then began to produce drooling phenomenon.
+2. Baby haircut
+The baby\'s skull is relatively soft, and the scalp is tender, if the haircut is slightly careless, it is easy to graze the baby\'s scalp, thereby causing infection. Pay attention to your baby\'s expression in the haircut. If your baby is unhappy and wants to cry, please stop haircut immediately. This is to prevent the baby from bruising while crying.
+3. Exercise
+Parents with babies for a walk time should be a little more than two months before, exposed to the sunshine and fresh air in the nature of space, is advantageous to the baby\'s growth and development."
+        </item>
+    </string-array>
+
+    <string-array name="recommend_5_month">
+        <item>
+            "The basic abilities of a 5-month-old baby include:
+Mastered abilities (most babies can do): distinguish bold colors; play with his hands and feet.
+Developing abilities (half babies can do): know his name; turn to new sounds.
+Advanced skills (few babies can do): sit without support for a while; separation anxiety may occur."
+        </item>
+        <item>
+            "The amount of supplementary food starts from 1 to 2 teaspoons, then gradually increases. Mainly provide liquid and paste food. Rice noodles are served in turn, followed by vegetable puree, fruit juice or puree (starting with water and then drinking the original juice), followed by puree. Fruit: sour fruit such as oranges, lemons, kiwi first do not give the baby to eat. Vegetable puree: such as carrots, potatoes, green beans, pumpkin."
+        </item>
+        <item>
+            "1. Baby pillow
+By the time a child is 4 to 5 months old, the neck of the spine begins to flex forward. Therefore, in order to maintain the physiological bending of sleep and keep the head comfortable, cotton towel can be folded in half under the baby\'s head as a pillow for sleeping.
+2. "three baths" for the baby
+Using the natural conditions of sunshine, water and air to the baby continue \"three baths\" exercise, can not only prevent disease, but also good for your baby\'s healthy growth.
+3. Appropriate clothing
+Babies between 5 and 6 months of age are more sensitive and cry if they are uncomfortable. Small clothes, will affect the growth and development of the baby; Clothing is not soft, will hurt the baby\'s tender skin. Babies this month are more likely to pick up smaller objects and, once in their hands, put them in their mouths. If small buttons or accessories are pulled off by the baby and put in his mouth, it is very dangerous. Safety first when choosing clothes for the baby, and baby clothes do not have buttons and small accessories."
+        </item>
+    </string-array>
+
+    <string-array name="recommend_6_month">
+        <item>
+            "The basic skills of a 6-month-old baby include:
+Mastered abilities (most babies can do): turn to sounds and voices; imitate vocalization.
+Developing abilities (half babies can do): sit without support; move objects from one hand to the other hand.
+Advanced abilities (few babies can do): the body can jump forward or start crawling; speak in a garbled way or pronounce certain syllables; pull things towards himself."
+        </item>
+        <item>
+            "For six-month-old baby, one supplementary meal every morning is enough. Rice noodles as a staple food, in addition to rice noodles, increase lean meat, pig liver mud, chicken liver mud and other iron rich and easy to absorb food, directly into rice noodles. Puree: increase the number of times a day to two from one. Supplementary food is added at the same time as children to eat milk, vegetable puree, puree paste food had better be added immediately after eating milk. Juice: vegetable juice, pear lotus root juice, apple juice, winter melon juice."
+        </item>
+        <item>
+            "1. Sleep
+When growing to the sixth month, sleep is still an important part of the baby's life. Parents must reasonably arrange the baby\'s day life, so that the baby has enough sleep time every day, and develop good sleep habits, to ensure that the baby has plenty of energy.
+2. Oral care
+At 6 months of age, the baby\'s teeth have not yet sprouted, the tooth socket has not yet developed, the mouth is relatively shallow. With the gradual development of salivation cells, saliva secretion is also gradually increased, salivation will be a common phenomenon.
+3. Eye care
+After six months, the baby\'s eyes are in focus and his posture is adjusted so that he can see what he wants to see. An eye exam should be conducted every six months to ensure normal vision in both eyes and eye movement coordination.
+4. Baby clothes
+For the first 6 months of life, your baby\'s basic clothing should be a jumpsuit. The best cotton jumpsuit is light or plain, with an opening in the front and crotch at the base of the thighs, and is easy to wear. Due to the relatively large body surface area leads to heat dissipation and body heat production capacity is insufficient, parents should pay attention to the baby clothes in code weather."
+        </item>
+    </string-array>
+
+    <string-array name="recommend_7_month">
+        <item>
+            "The basic skills of a 7-month-old baby include:
+Mastered abilities (most babies can do): sit without support; pull things towards himself.
+Developing abilities (half babies can do): jump forward or start crawling; speak in a garbled way or pronounce certain syllables; begin to recognize the living.
+Advanced skills (few babies can do): waving goodbye; stand on something; bump things against each other."
+        </item>
+        <item>
+            "To further add supplementary food to the baby, the addition of supplementary food varieties should be rich and diverse, to achieve meat and vegetable collocation. At the height of a baby\'s development, adequate calcium promotes bone and tooth development and suppresses nerve abnormalities. Juice: tomato juice, pear lotus juice, minced rice soup. Rice paste: mashed egg, mashed potato, mashed strawberry potato, mashed apple cereal. Vegetables: carrots, potatoes, green beans, squash."
+        </item>
+        <item>
+            "1. Learn to crawl
+The seventh month is the golden period for babies to learn to crawl, so parents must seize this opportunity to let their babies learn to crawl. Crawling movement allows the baby to get a lot of tactile stimulation, is good for the baby\'s perception ability, motor ability and sensory integration ability.
+2. Attachment development
+Around the age of half a year is a critical time for attachment development, when babies become overly dependent on their mothers, and this peaks at nine months. So, between the ages of half a year and nine months, parents should let the baby interact with other family members to distract the child from excessive attachment to the mother."
+        </item>
+    </string-array>
+
+    <string-array name="recommend_8_month">
+        <item>
+            "The basic skills of an 8-month-old baby include:
+Mastered abilities (most babies can do): call his parents \"mommy, daddy\" (but may not be able to tell which is which); pass items from one hand to the other.
+Developing abilities (half babies can do): stand with assistance; crawl; point things; look for things that are hidden.
+Advanced abilities (few babies can do): pull something up and walk a few steps; use thumb and forefinger to pinch objects; use gestures to show what he wants."
+        </item>
+        <item>
+            "At this point, the baby\'s digestive enzymes can fully digest the protein, the required protein content is 2.3g per kg of body weight per day, can give the baby to feed a little more protein dairy product, soy products, fish, etc. Protein: custard, egg custard, chicken custard, minced fish. Cereals and other carbohydrates: cereals, rice flakes, porridge, noodles."
+        </item>
+        <item>
+            "1. Sleep
+This stage of the baby sleep is not stable, in order to let the baby sleep, parents can pat his back, as far as possible to avoid the hug shake; For the baby who cries because he does not want to fall asleep, parents can sit by his bed and hold his little hand until he falls asleep, and then slowly shorten the stay time to let the baby slowly get used to sleeping alone.
+2. Choose baby cups
+Frequent, long-term milk bottle use can lead to tooth decay, and pediatricians recommend that it\'s best to start trying to get your baby to drink from a water bottle when he is six months old. By eight months of age, babies should be able to drink from their own water bottles.
+3. Shower
+The water temperature of the baby bath at the age of 8 months can start at 34℃-35℃, and then decrease by 1℃ every 2-3 days to 25℃-26℃ gradually. Brush dipped in water bath, take turns to clean around the up and down and back of the chest, in areas such as the total time about 6 minutes. After two scrubs, place the baby in the water for 10-20 minutes.
+4. Pay attention to safety
+At eight months of age, babies can play with their own toys and stir things in bowls with their own spoons. Mother must pay attention to the baby\'s safety when taking care of the baby and do not allow him to play with toys by himself or stay at home alone."
+        </item>
+    </string-array>
+
+    <string-array name="recommend_9_month">
+        <item>
+            "The basic skills of a 9-month-old baby include:
+Mastered abilities (most babies can do): stand with assistance; speak vaguely or pronounce certain syllables.
+Developing abilities (half babies can do): walk a few steps on furniture; learn to drink from a water bottle; eat with his hands; bump things into each other.
+Advanced abilities (few babies can do): clapping and hide-and-seek; correctly say \"dad\" and \"mom\"."
+        </item>
+        <item>
+            "In addition to allowing the baby to continue to be familiar with the new tastes and feelings of various foods, parents should gradually change the texture and particle size of food, gradually from paste food to solid food transition, so that supplementary food instead of a milk and become a separate meal. Cereal: biscuit, steamed bread, rice congee (rice or millet), cereal congee, rotten noodles. Vegetables: spinach, cabbage, radish, carrot, tomato. Fruit: apple, banana, watermelon, peach juice."
+        </item>
+        <item>
+            "1. Crawling safety
+Babies crawl and stand up about seven to nine months, and girls develop earlier than boys. 9 months of baby crawling has been relatively flexible, so at this stage, in the range that baby can crawl, parents must consider all aspects of possible risk factors. The corners of the table at home should be wrapped to avoid accidental injury to the baby.
+2. Learn to walk
+The baby begins to learn to walk commonly in 12-14 months, some baby develops early may advance to 9 months. But parents must pay attention to 9 months ago to let the baby crawl than to start learning to walk for the baby is more beneficial, because at this time the baby\'s brain nervous system is not well developed, walking is the need for brain nerve guidance and coordination. In order for 12-month-old babies to start learning to walk better, they need to be actively prepared in all aspects, step by step."
+        </item>
+    </string-array>
+
+    <string-array name="recommend_10_month">
+        <item>
+            "The basic skills of a 10-month-old baby include:
+Mastered abilities (most babies can do): waving goodbye; use thumb and forefinger to pinch objects; crawl skillfully, belly can get off the ground.
+Developing abilities (half babies can do): distinguish between \"dad\" and \"mom\" correctly; use gestures to show what he wants.
+Advanced abilities (few babies can do): stand for a few seconds without holding onto something; put things in a container."
+        </item>
+        <item>
+            "From this month, supplementary food will become the official staple food, parents can let the baby and adults eat together, but still pay attention to feed him the right food. Both protein and iron should be added in moderation. To pay attention to the meat and vegetable collocation, each meal put more than 3 kinds of dishes. Protein: egg, fish, chicken, pork liver, etc., from minced to small pieces. Vegetables: carrot, vegetable heart, broccoli, tomato. Cereal: congee, soft rice, noodles, bean products, biscuits, steamed buns, cooked potatoes, taro."
+        </item>
+        <item>
+            "1. Shower
+After 10 months, the baby has the ability to sit up on his own, so be careful when your baby tries to stand up by holding the tub. Although at this time to give the baby the bath does not need to hug him, but still must at any time in the side of the nurse, beware of curious and hyperactive baby accidentally slipped.
+2. Suck finger
+It is rare for babies who sucked their fingers last month to stop this month, and the extent may be lessened. If this month sucking finger not only did not reduce but also increased, parents should pay attention to this. Parents can take any non-compulsory measures and methods for the baby to change the baby\'s non-feeding habits."
+        </item>
+    </string-array>
+
+    <string-array name="recommend_11_month">
+        <item>
+            "The basic skills of an 11-month-old baby include:
+Mastered abilities (most babies can do): call \"daddy\" and \"mommy\" correctly; play clapping and hide-and-seek games; stand for a few seconds without holding something up.
+Developing abilities (half babies can do): understand \"no\" and simple instructions; put things in a container.
+Advanced abilities (few babies can do): speak words other than \"mom\" and \"dad\"; bend when standing."
+        </item>
+        <item>
+            "At this time parents can consider weaning, between meals give the baby some snacks or milk. Pay attention to meat and vegetable collocation, and gradually increase the dosage, each time eat 50-100 grams. The baby should be guaranteed to eat more than 400 milliliters of milk every day. Staple food: porridge, noodles (noodles), soft rice. Fruits and vegetables: water, fruit juice, fresh fruit puree, jam. Calcium and protein foods: whole milk, chicken, lean meat, tofu."
+        </item>
+        <item>
+            "1. Oral care
+At 11 months of age, the baby begins to teether. After feeding, parents should give the baby some warm water to drink, which is equivalent to gargling. Also parents can dip in with gauze on warm boiled water to give baby wipe gingival and oral cavity gently. During the growth of baby teeth, parents should give the baby every day to remove the plaque on the teeth, soft dirt, in order to maintain a clean mouth.
+2. Shower
+Before entering the water, dip the square towel in with warm water first wet, gently pat the baby\'s chest, abdomen, let the baby to the water has a preliminary feeling, so as not to enter the water and feel suddenly not adapt to. After removing the clothes, hold the baby\'s head and neck with your left hand and hips with your right hand. After washing, take the baby out of the tub, dry his body and hair with a large towel, and wrap up in diapers and clothes.
+3. Proper early education
+This month babies like to imitate the way you talk, the way you look. You should let the baby contact with the stranger gradually, overcome afraid of living. Continue to develop your baby\'s language and tell your baby stories in a picture book. Train your baby to walk. At the same time, the baby should be trained not to do things that should not be done, ignore the baby will develop bad habits."
+        </item>
+    </string-array>
+
+    <string-array name="recommend_12_month">
+        <item>
+            "The basic skills of a 12-month-old baby include:
+Mastered abilities (most babies can do): imitate other people\'s movements; use gestures to show what he wants.
+Developing abilities (half babies can do): walk a few steps; In addition to \"mom, dad\", can say a word.
+Advanced abilities (few babies can do): walk on their own; doodle with crayons; say a few words except \"mom\" and \"dad\"."
+        </item>
+        <item>
+            "When supplementing protein, the ratio of milk to solid food should be 40:60, 500 ml of milk should be provided to the baby every day, if the baby is weaned before one year, should drink infant formula milk powder, gradually increase the amount of milk to drink. Staple food: soft rice, rotten noodles, rice porridge, small wonton. Protein: eggs, milk, soy milk, soy. Vegetables and fruits: spinach, cabbage, radish, carrot, tomato."
+        </item>
+        <item>
+            "1. Sleep
+Babies in this age group sleep 10 to 11 hours at night, and sleep 1-2 hours twice a day. Each baby\'s sleep time has individual differences, if the baby sleep time is too little to pay attention to provide a good sleep environment, to help improve the baby\'s sleep. Babies who don\'t sleep well can also lose their appetite.
+2. Shoes
+Some of the baby has walked at this stage, when buying shoes should buy a few more, so as not to affect the normal growth and development of the baby\'s feet. Shoes should be of moderate size in summer. Because the shoe of summer is easier to observe also, can see the appearance that the baby wears shoe more so, still can touch the feeling that the baby wears shoe. When buying shoes in the winter, it\'s better to put your hand in your baby\'s shoe from the heel, leaving room for a small finger.
+3. Clothes
+Babies at this age are growing too fast to wear clothes, so they need to buy a new batch of clothes suitable for babies. Be careful not to wear too big clothes for your baby, and don\'t overdress your baby. To pay attention to the baby\'s clothing to choose lightweight fabrics, convenient baby activities, clothes to wash and change."
+        </item>
+    </string-array>
+
+    <string-array name="recommend_15_month">
+        <item>
+            "The basic skills of a 15-month-old baby include:
+· Cognitive ability: by this month of age, most babies are able to consciously call daddy, mommy, and even grandpa, grandma, grandpa, uncle, and aunt.
+· Language ability: can grasp up to 100 words, understand about 200 words, can use 40-50 of 63 gestures;may be able to say one or two or three words, but a baby who doesn\'t say one word doesn\'t mean anything unusual.
+· Big movement: can hold handrail or other object, lift a small foot.
+· Fine action: will turn the pages of a slightly thicker comic book, but may turn many pages at a time, rather than page by page."
+        </item>
+        <item>
+            "The principle of dietary planning for infants at 15 months is adequate nutrition and a transition from a milk-based diet to an adult diet. The food you choose for your baby must be rich in nutrients, with an emphasis on animal protein and soy supplements. A certain amount of milk should be added in particular, but generally no more than 800 liters, to ensure a supply of high-quality protein. Eat vegetable, fruit more, in addition, coarse grain fine grain wants to eat, can avoid vitamin B1 deficient disease. Staple food can eat soft rice, congee, small steamed buns, small wonton, small dumplings, small steamed stuffed bun, etc., eat not too much also does not matter, the daily intake in 150 grams can be about."
+        </item>
+        <item>
+            "1. Sleep
+It\'s normal for a baby of this age to get around 12 hours of sleep a day, but it varies from baby to baby, and mothers are often concerned that their babies are not getting enough sleep and need to learn how to properly calculate their sleep. If your baby can\'t sleep through the night, find out why and what to do about it.
+2. Watch out for your baby\'s fingers getting stuck
+Babies at this stage especially like to stick their fingers into the hole, so don\'t give the baby bottles and other items with small mouths to play with, and don\'t panic if the baby\'s fingers get stuck and can\'t come out, the attitude of adults will affect the baby. Try applying some soapy water to reduce friction and then take it down. If you can\'t take it down, you may need to consult a doctor.
+3. Speak to the baby to use adult language
+Do not use baby language to talk to the baby. Once your baby gets used to using baby talk, it can take a long time to correct for normal speech. Parents should talk to their babies in adult language."
+        </item>
+    </string-array>
+
+    <string-array name="recommend_18_month">
+        <item>
+            "The basic skills of an 18-month-old baby include:
+· Cognitive ability: the baby\'s attention span is still very short, about 6 minutes; show curiosity about strangers; be able to tell what can and can\'t be eaten; distinguish the shape of objects, able to plug different shapes of blocks into different jacks.
+· Language ability: like to talk to themselves; name things and give directions;not only name their own body parts, but also other people\'s body parts.
+· Big action: walk forward freely, even run a few steps; like to imitate the adult action; like to dance to music.
+· Fine movement: like to put things together, often a lot of things at once; might eat with his hands."
+        </item>
+        <item>
+            "Year and a half of the baby is in mental development period, usually the parents will give the baby to add fish oil, is the baby a year later can eat all kinds of natural food, baby food diversification, let the baby often eat some deep-sea fish, like salmon, trout, reasonable collocation, balanced, natural won\'t lack educational factors."
+        </item>
+        <item>
+            "1. Sleep
+At this age, the baby may refuse to go to bed because he has not had enough play or he may not want to go to bed alone. Parents can tell their baby stories and sleep with him first.
+2. Be patient with your baby's emotions
+Your baby needs your support and encouragement to adapt to the process of constant failure. For crying or angry baby, adult must be patient and rational, comfort the baby, can also be cold treatment, temporarily let the baby cries for a while, to allow the baby to wash out their own bad emotions."
+        </item>
+    </string-array>
+
+    <string-array name="recommend_24_month">
+        <item>
+            "The basic abilities of a 2-year-old baby include:
+· Cognitive ability: notice the nuances between objects; answer simple questions correctly; carry out simple instructions; imitate a line or two from a nursery song.
+· Language development: speak disyllabic words, and vocabulary has increased; be able to communicate with simple language like adults, can use language to express their wishes; understand complex sentences, such as \"go to the park with mom and dad\"; understand 120 words -275 words; be able to say his name.
+· Physical skills: learn to zip; draw with pencils or crayons; throw balls in different directions; eat alone; take off simple clothes.
+· Emotional development: have a certain sense of right and wrong and knowing what to do will be praised or punished; like to communicate with adults; like to correct the mistakes of adults.
+· Social skills: deliberately imitate the adult action, manner; ask for help from adults; begin to disobey; be interested in the same age children."
+        </item>
+        <item>
+            "2 years old baby new teeth in slowly grow, brain development is accelerated, the digestive functions are complete, the main food also gradually from dairy primarily to give priority to with mixed food, but the baby\'s digestive system is not yet mature, so for the baby can\'t eat the food of adults, according to the physiological characteristics and nutritional needs of babies, make delicious food for him, ensure a balanced diet. 2 - year - old baby\'s stomach capacity is limited, should eat less often. Appropriate eats vegetable, fruit more, need to eat more because of this, but fruit cannot replace vegetable, the vegetable that darling should eat every day, fruit is 250 grams in all. And an appropriate amount of animal and plant protein supplement, should eat meat 40-50 grams a day, soy products 25-50 grams, eggs 1. Milk is rich in nutrition, especially rich in calcium, for the baby to absorb, so this period of milk is still an indispensable food for the baby, every day should ensure that intake 250-500 ml."
+        </item>
+        <item>
+            "1. Nursing of baby teeth
+Brush your baby\'s teeth. Now mothers can choose a toothbrush with relatively soft bristles, a safe baby\'s toothpaste, and let the baby practice brushing.
+2. Physical care
+Skip the diaper change in the shower, but keep buttocks out of the tub. This age group is the beginning of good hygiene habits for babies to enjoy bathing, so you can always dress the bathroom up like a playroom. If your baby wants to play with a bucket or a rubber duck, just be safe and let him play. Let the baby slowly like to take a bath every day."
+        </item>
+    </string-array>
+
+</resources>

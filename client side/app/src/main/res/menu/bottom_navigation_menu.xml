@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_baby"
+        android:icon="@drawable/baseline_child_care_black_24"
+        android:title="@string/nav_title_baby" />
+    <item
+        android:id="@+id/nav_curve"
+        android:icon="@drawable/baseline_gesture_black_24"
+        android:title="@string/nav_title_curve" />
+    <!--<item
+        android:id="@+id/nav_record"
+        android:icon="@drawable/baseline_bar_chart_black_24"
+        android:title="记录" />-->
+    <item
+        android:id="@+id/nav_milepost"
+        android:icon="@drawable/baseline_pie_chart_black_24"
+        android:title="@string/nav_title_milestone" />
+    <item
+        android:id="@+id/nav_mine"
+        android:icon="@drawable/baseline_account_circle_24"
+        android:title="@string/nav_title_mine" />
+
+</menu>
